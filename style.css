@@ -1,0 +1,217 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Nunito !important;
+}
+
+.hero{
+   /* height: 100vh; */
+   width: 100%;
+    background-color: #fff;
+}
+
+/* Navbar section */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 5%;
+    background-color: #210440;
+    margin-bottom: 50px;
+}
+nav a .primary-logo{
+    height: 50px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: rgb(18, 39, 230);
+    transition: .5s;
+}
+
+nav .button-box{
+    display: flex;
+    justify-content: space-around;
+}
+nav .button-box button{
+    margin: 0px 10px;
+    padding: 8px 15px;
+}
+nav .button-box .btn :hover{
+    transform: scale(1.3);
+    cursor: pointer;
+}
+nav .button-box .btn1{
+    border: none;
+    background: none;
+    transition: .5s;
+    color: white;
+}
+nav .button-box .btn{
+    border: 2px solid white;
+    background: none;
+    border-radius: 15px;
+    transition: .5s;
+    color: white;
+}
+
+/* .menu-line{
+    width: 20px;
+    height: 3px;
+    background-color: #fff;
+    margin-bottom: 4px;
+} */
+
+
+
+/* Landing page section */
+
+.landing-1{
+    /* display: flex;
+    justify-content: space-around; */
+    margin: 100px 20px;
+}
+.landing-1 .landing-1-sub{
+    display: block;
+    margin: auto 30px;
+}
+.landing-1 .landing-1-sub h2{
+    font-weight: bold;
+    font-size: 25px;
+    color: #07010D;
+}
+.landing-1 .landing-1-sub h4{
+    color: #959595;
+    font-size: 15px;
+    font-weight: light;
+    line-height: 2.5;
+    letter-spacing: 1px;
+}
+
+.customers .authors{
+    border: 2px solid #210440;
+    background-color: #FAEAE8;
+}
+
+/* .card-group .card{
+    border: 2px solid #E5958E;
+    padding: 40px 50px;
+    width: 50%;
+    border-radius: 15px;
+    position: absolute;
+    left: 570px;
+    bottom: 50px;
+} */
+.card-group .card1{
+    border: 2px solid #E5958E;
+    padding: 40px 50px;
+    width: 50%;
+    border-radius: 15px;
+    margin-top: 30px;
+    right: 20px;
+    top: 700px;
+}
+.card .vision{
+    position: absolute;
+    top: 2px;
+    left: 5px;
+}
+
+.card-group{
+    position: relative;
+}
+.row{
+    margin-top: 50px;
+  
+}
+.col .cardd img{
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+}
+.col .card{
+    width: 60%;
+    border: 2px solid #210440;
+    /* height: 50vh; */
+    border-radius: 10px;
+    background-color: #FAEAE8;
+    padding: 10px 0px;
+    text-align: justify;
+    
+}
+
+body .customers{
+    padding: 50px auto ;
+}
+
+.card .card-img-top{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    text-align: center;
+}
+.card-body .card-text{
+    font-size: 14px;
+    text-align: center;
+}
+.card-body .card-title{
+    font-size: 17px;
+    text-align: justify;
+}
+.card-body .role{
+    text-align: center;
+}
+
+.footer{
+    background-color: #210440;
+    padding: 30px 0px;
+}
+.footer .footer-mail{
+    text-align: center;
+}
+.footer .footer-mail p{
+    font-size: 20px;
+    color: #fff;
+    /* margin: 50px 0px; */
+}
+.footer .footer-mail .field-email{
+    width: 70%;
+    margin: 0 auto;
+}
+.link{
+    text-decoration: none;
+
+}
+a:active, .link{
+    color: #959595 !important;
+}
+
+
+/* <<<<<<<<<<<<<<<<<<<<-------------------contact.html css------------------->>>>>>>>>> */
+body .form-list{
+    margin: 50px auto;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    background-color: #F6DCD9;
+    display: block;
+    width: 55%;
+    padding: 30px 40px;
+    text-align: justify;
+}
+body .form-list button{
+    padding: 15px 30px;
+    background-color: #210440;
+    color: #fff;
+    width: 25%;
+    border-radius: 10px;
+}
